@@ -8,7 +8,7 @@ memo_type = gets.to_i
 
 if memo_type == 1
     puts "拡張子を除いたファイルを入力してください"
-    file_name = gets
+    file_name = gets.chomp + ".csv"
     puts "メモしたい内容を記入してください"
     puts "完了したらCtrl + Dをおします"
     array = []
