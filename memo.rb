@@ -22,7 +22,7 @@ if memo_type == 1
     end
 
 elsif memo_type == 2
-    puts "既存のメモの拡張子を除いたファイル名を入力してください"
+    puts "既存のメモの拡張子を含んだファイル名を入力してください"
     file_name = gets
     puts "追記したい内容を記入してください"
     puts "完了したらCtrl + Dをおします"
